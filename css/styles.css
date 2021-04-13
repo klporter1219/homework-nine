@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.4);
+  justify-content: space-around;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+.dual-text {
+  display: flex;
+}
+
+.dual-text p {
+  text-align: left;
+  padding: 8px;
+}
+
+#home h1 {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 32px;
+}
+
+#home img {
+  margin: 0 auto;
+  display: block;
+  padding: 32px;
+}
+
+#home .dual-text {
+  width: 640px;
+  margin: 0 auto;
+  padding: 8px 0;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#about .image-left {
+  width: 100%;
+  display: flex;
+}
+
+#about .image-left img {
+  width: 60%;
+}
+
+#about .image-left .text {
+  width: 40%;
+}
+
+#about .image-left .text h2 {
+  font-size: 48px;
+  padding-left: 16px;
+}
+
+#about .image-left .text p {
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+#about .headshots {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 64px;
+}
+
+#about .headshots img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+}
+
+#about .about-text {
+  padding: 32px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 64px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#products .product-panel {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+#products .product-panel img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#products .product-panel p {
+  line-height: 24px;
+  padding: 0 16px;
+}
+
+#contact .contact-form {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 64px;
+}
+
+#contact input {
+  margin: 16px 0;
+  height: 24px;
+}
+
+#contact .half {
+  width: 50%;
+}
+
+#contact .full {
+  width: 100%;
+  margin-top: 8px;
+}
+
+#contact button {
+  width: 100%;
+  margin-top: 16px;
+  height: 32px;
+}
